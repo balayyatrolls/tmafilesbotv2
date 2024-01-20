@@ -54,7 +54,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                   ],[
-                    InlineKeyboardButton('Get Premium Access', url=CHNL_LNKt')
+                    InlineKeyboardButton('Get Premium Access', url=CHNL_LNK')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEKFBdk4dpB81idV5pCduWpoJSeARTPkgACuQkAAj12EFdAjTRWeIwswzAE") 
